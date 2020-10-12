@@ -1,6 +1,6 @@
-<div style="text-align: center;">
+<p align="center">
   <img src="card.png">
-</div>
+</p>
 
 ## 📋 Sumário
 
@@ -35,6 +35,6 @@ git clone https://github.com/DarkTechLC/happy-nlw3.git
 # Mude para o repositório clonado:
 cd happy-nlw3
 
-# Vá para o Front-End Web e inicíe-o:
-cd web && npm start
+# Vá para o diretório do Front-End Web, instale as dependências e inicíe-o:
+cd web && npm install && npm start
 ```
