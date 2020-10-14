@@ -20,11 +20,11 @@ Tal projeto tem como objetivo promover visitas a orfanatos, tornando a vida das 
 
 ### 🌐 Front-End Web
 
-![Página de início](home-preview.jpg)
+![Página de início](./.github/assets/home-preview.jpg)
 
-![Página de localizações](map-preview.jpg)
+![Página de localizações](./.github/assets/map-preview.jpg)
 
-![Página de perfil](profile-preview.jpg)
+![Página de perfil](./.github/assets/profile-preview.jpg)
 
 ## ⚙ Como executar o projeto
 
@@ -35,6 +35,20 @@ git clone https://github.com/DarkTechLC/happy-nlw3.git
 # Mude para o repositório clonado:
 cd happy-nlw3
 
-# Vá para o diretório do Front-End Web, instale as dependências e inicíe-o:
+# Para executar o Back-End:
+## Na raiz do projeto, vá para o diretório `backend`:
+cd backend
+
+## Instale as dependências:
+npm install
+
+## Execute as migrations do banco de dados:
+npm run typeorm migration:run
+
+## Rode o servidor:
+npm run dev
+
+# Para executar o Front-End Web:
+## Na raiz do projeto, vá para o diretório `web` , instale as dependências e inicíe-o:
 cd web && npm install && npm start
 ```
