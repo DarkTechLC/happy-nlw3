@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="card.png">
+  <img src="./.github/assets/card.png">
 </p>
 
 ## 📋 Sumário
