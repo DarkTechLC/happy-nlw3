@@ -8,6 +8,7 @@
 - [📖 Sobre](#-sobre)
 - [👁 Pré-visualização](#-pré-visualização)
   - [🌐 Front-End Web](#-front-end-web)
+  - [📱 Front-End Mobile](#-front-end-mobile)
 - [⚙ Como executar o projeto](#-como-executar-o-projeto)
 
 ## 📖 Sobre
@@ -20,11 +21,17 @@ Tal projeto tem como objetivo promover visitas a orfanatos, tornando a vida das 
 
 ### 🌐 Front-End Web
 
-![Página de início](./.github/assets/home-preview.jpg)
+![Página de início](./.github/assets/home-preview-web.jpg)
 
-![Página de localizações](./.github/assets/map-preview.jpg)
+![Página de localizações](./.github/assets/map-preview-web.jpg)
 
-![Página de perfil](./.github/assets/profile-preview.jpg)
+![Página de perfil](./.github/assets/profile-preview-web.jpg)
+
+### 📱 Front-End Mobile
+
+![Tela de localizações](./.github/assets/map-preview-mobile.jpg)
+
+![Tela de perfil](./.github/assets/profile-preview-mobile.jpg)
 
 ## ⚙ Como executar o projeto
 
@@ -51,4 +58,10 @@ npm run dev
 # Para executar o Front-End Web:
 ## Na raiz do projeto, vá para o diretório `web` , instale as dependências e inicíe-o:
 cd web && npm install && npm start
+
+# Para executar o Front-End Mobile:
+## Na raiz do projeto, vá para o diretório `mobile`, instale as dependências e inicíe-o:
+cd mobile && npm install && npm start
+
+## Instale o `Expo Client` na loja de aplicativos do seu celular ou emulador.
 ```
