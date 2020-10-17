@@ -56,12 +56,12 @@ npm run typeorm migration:run
 npm run dev
 
 # Para executar o Front-End Web:
-## Na raiz do projeto, vá para o diretório `web` , instale as dependências e inicíe-o:
-cd web && npm install && npm start
+## Na raiz do projeto, vá para o diretório `front-web` , instale as dependências e inicíe-o:
+cd front-web && npm install && npm start
 
 # Para executar o Front-End Mobile:
-## Na raiz do projeto, vá para o diretório `mobile`, instale as dependências e inicíe-o:
-cd mobile && npm install && npm start
+## Na raiz do projeto, vá para o diretório `front-mobile`, instale as dependências e inicíe-o:
+cd front-mobile && npm install && npm start
 
 ## Instale o `Expo Client` na loja de aplicativos do seu celular ou emulador.
 ```

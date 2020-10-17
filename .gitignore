@@ -4,12 +4,12 @@ node_modules
 **/uploads
 !**/.gitkeep
 
-./mobile/.expo/*
-./mobile/npm-debug.*
-./mobile/*.jks
-./mobile/*.p8
-./mobile/*.p12
-./mobile/*.key
-./mobile/*.mobileprovision
-./mobile/*.orig.*
-./mobile/web-build/
+./front-mobile/.expo/*
+./front-mobile/npm-debug.*
+./front-mobile/*.jks
+./front-mobile/*.p8
+./front-mobile/*.p12
+./front-mobile/*.key
+./front-mobile/*.mobileprovision
+./front-mobile/*.orig.*
+./front-mobile/web-build/
